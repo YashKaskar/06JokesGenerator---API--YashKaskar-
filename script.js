@@ -1,4 +1,4 @@
-const joke = document.querySelector('#joke');
+const jokeEl = document.querySelector('#joke');
 const btnjoke = document.querySelector('#jokeBtn');
 
 btnjoke.addEventListener('click', generatingthejoke);
@@ -8,4 +8,9 @@ async function generatingthejoke() {
             accept: 'application/json'
         }
     });
+
+    const laugh = await jokes.json();
+    console.log(laugh);
+
+    jokeEl.innerHTML = laugh.joke
 }
