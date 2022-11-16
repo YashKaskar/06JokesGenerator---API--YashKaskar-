@@ -2,7 +2,7 @@
 
 In this project i made Joke Generator which functional and ready
 
-To make this CountDown i used ( Html, Css, JavaScript )
+To make this Joke Generator i used ( Html, Css, JavaScript )
 
 In Html :
 
